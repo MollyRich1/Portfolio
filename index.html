@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Molly Rich - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Molly Rich</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#involvement" class="nav-link">Involvement</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Hi, I'm <span class="highlight">Molly Rich</span></h1>
+                <p class="hero-subtitle">Building human-centered products at the intersection of design & code.</p>
+                <p class="hero-description">
+                    I blend research, design, and engineering to shape the what and deliver the how.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                    <a href="resume.pdf" class="btn btn-resume" download>
+                        <i class="fas fa-download"></i> Download Resume
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-placeholder">
+                    <img src="./images/mr-profile.png" alt="Molly Rich profile picture" />
+                </div>                    <!-- <i class="fas fa-user"></i> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm a junior at the University of Michigan studying Computer Science, passionate about blending creativity and technology to bring ideas to life. I thrive in collaborative spaces—whether building projects with teammates, contributing to campus organizations, or designing solutions that make a difference.
+                    </p>
+                    <p>
+                    Outside of academics, I stay inspired through fitness, running, and sewing—habits that sharpen my discipline and fuel my creativity. I'm excited to keep growing, learning, and applying my skills to opportunities where I can create meaningful impact.
+                    </p>
+
+                      <div class="skills">
+                        <h3>Skills</h3>
+
+                        <!-- One tidy grid of “chips” with icons -->
+                        <div class="chip-grid">
+                            <span class="chip chip--primary"><i class="fa-brands fa-react" aria-hidden="true"></i>React</span>
+                            <span class="chip chip--primary"><i class="fa-brands fa-html5" aria-hidden="true"></i>HTML</span>
+                            <span class="chip chip--primary"><i class="fa-brands fa-css3-alt" aria-hidden="true"></i>CSS</span>
+                            <span class="chip chip--primary"><i class="fa-brands fa-figma" aria-hidden="true"></i>Figma</span>
+
+                            <span class="chip"><i class="fa-brands fa-js" aria-hidden="true"></i>JavaScript</span>
+                            <span class="chip"><i class="fa-brands fa-vuejs" aria-hidden="true"></i>Vue</span>
+                            <span class="chip"><i class="fa-brands fa-python" aria-hidden="true"></i>Python</span>
+                            <span class="chip"><i class="fa-brands fa-java" aria-hidden="true"></i>Java</span>
+                            <span class="chip"><i class="fa-solid fa-code" aria-hidden="true"></i>C++</span>
+
+                            <span class="chip"><i class="fa-brands fa-git-alt" aria-hidden="true"></i>Git</span>
+                            <span class="chip"><i class="fa-brands fa-github" aria-hidden="true"></i>GitHub</span>
+                            <span class="chip"><i class="fa-brands fa-aws" aria-hidden="true"></i>AWS</span>
+                            <span class="chip"><i class="fa-solid fa-database" aria-hidden="true"></i>SQL</span>
+                        </div>
+                        
+                        <div class="resume-download">
+                            <a href="resume.pdf" class="btn btn-resume-about" download>
+                                <i class="fas fa-download"></i> Download Resume
+                            </a>
+                        </div>
+                      </div>
+                      
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="./images/quackImg.png" alt="Quack! project screenshot" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h3>Quack!</h3>
+                        <p>A hackathon project built at MHacks that showcases my passion for creating innovative solutions.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Hackathon</span>
+                        </div>
+                        <div class="project-links">
+                            <!-- <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a> -->
+                            <a href="https://github.com/muhrauf12/Quack-" target="_blank" rel="noopener noreferrer"class="project-link">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <!-- <div class="project-placeholder">
+                            <i class="fas fa-university"></i>
+                        </div> -->
+                        <img src="./images/epsilonEtaImg.png" alt="Epsilon Eta project screenshot" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h3>Epsilon Eta Website</h3>
+                        <p>Built a professional website for Epsilon Eta, showcasing my web development and design skills.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML/CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Web Design</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://www.epsilonetaumich.com/" target="_blank" rel="noopener noreferrer" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> Live Site
+                            </a>
+                            <a href="https://github.com/MollyRich1/Eta_Umich" target="_blank" rel="noopener noreferrer" class="project-link">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Personal Website</h3>
+                        <p>A clean, responsive portfolio website built from scratch to showcase my projects and skills.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML/CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Responsive Design</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank" rel="noopener noreferrer" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                            <a href="#" target="_blank" rel="noopener noreferrer" class="project-link">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Involvement Section -->
+    <section id="involvement" class="involvement">
+        <div class="container">
+        <h2 class="section-title">Campus Involvement & Leadership</h2>
+        <div class="involvement-grid">
+            
+            <!-- TEK -->
+            <article class="involvement-card">
+            <div class="involvement-icon">
+                <!-- Replace src with TEK logo -->
+                <img src="./images/tekLogo.png" alt="TEK Logo" />
+            </div>
+            <div class="involvement-content">
+                <h3 class="involvement-title">Tau Epsilon Kappa (TEK)</h3>
+                <p class="involvement-sub">Professional Technology Fraternity</p>
+                <div class="involvement-tags">
+                <span class="role-tag">VP Internal Affairs</span>
+                <span class="role-tag">Social Chair (past)</span>
+                </div>
+                <p class="involvement-desc">
+                Organized chapter operations and events, strengthening collaboration and culture.
+                </p>
+                <p class="involvement-metric">Events organized: 12+ • Members engaged: 50+</p>
+            </div>
+            </article>
+    
+            <!-- The Michigan Daily -->
+            <article class="involvement-card">
+            <div class="involvement-icon">
+                <!-- Replace src with Michigan Daily logo -->
+                <img src="./images/TMD-logo.png" alt="Michigan Daily Logo" />
+            </div>
+            <div class="involvement-content">
+                <h3 class="involvement-title">The Michigan Daily</h3>
+                <p class="involvement-sub">Web &amp; Data Team</p>
+                <div class="involvement-tags">
+                <span class="role-tag">Data + Web</span>
+                </div>
+                <p class="involvement-desc">
+                Contributed to interactive, data-driven stories and internal newsroom tools.
+                </p>
+                <p class="involvement-metric">Interactive projects published: 3+ • Data sets analyzed: 10+</p>
+            </div>
+            </article>
+
+            <!-- Kappa Delta -->
+            <article class="involvement-card">
+                <div class="involvement-icon">
+                <!-- Replace src with Kappa Delta logo -->
+                <img src="./images/kappa-delta-logo.png" alt="Kappa Delta Logo" />
+                </div>
+                <div class="involvement-content">
+                <h3 class="involvement-title">Kappa Delta Sorority</h3>
+                <p class="involvement-sub">Panhellenic Sorority – University of Michigan</p>
+                <div class="involvement-tags">
+                    <span class="role-tag">Member</span>
+                    <!-- Add a position tag if you hold one -->
+                </div>
+                <p class="involvement-desc">
+                    Support philanthropic initiatives including Prevent Child Abuse America and Girl Scouts of the USA 
+                    through fundraising events and campus outreach.
+                </p>
+                <p class="involvement-metric">
+                    Philanthropy events: 5+ annually • Funds raised: $10,000+ • Service hours: 20+
+                </p>
+                </div>
+            </article>
+        
+    
+        </div>
+        </div>
+    </section>
+  
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's work together!</h3>
+                    <p>
+                        I'm always interested in new opportunities and exciting projects. 
+                        Whether you have a question or just want to say hi, I'll try my best to get back to you!
+                    </p>
+                    <div class="contact-methods">
+                        <a href="mailto:mollyri@umich.edu" class="contact-method">
+                            <i class="fas fa-envelope"></i>
+                            <span>mollyri@umich.edu</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/molly-rich-8ab403294/" class="contact-method">
+                            <i class="fab fa-linkedin"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="https://github.com/MollyRich1" class="contact-method">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Molly Rich. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
