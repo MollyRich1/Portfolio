@@ -199,6 +199,36 @@ body {
     margin-right: 8px;
 }
 
+.hero-social {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    /* background-color: rgba(255, 255, 255, 0.1); */
+    /* border: 2px solid rgba(255, 255, 255, 0.2); */
+    /* border-radius: 50%; */
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    transition: all 0.3s ease;
+    /* backdrop-filter: blur(10px); */
+}
+
+.social-link:hover {
+    /* background-color: rgba(255, 255, 255, 0.2); */
+    /* border-color: rgba(255, 255, 255, 0.4); */
+    transform: translateY(-3px);
+    color: white;
+}
+
 .resume-download {
     margin-top: 2rem;
     text-align: center;

@@ -46,14 +46,26 @@
             <div class="hero-content">
                 <h1 class="hero-title">Hi, I'm <span class="highlight">Molly Rich</span></h1>
                 <p class="hero-subtitle">Building human-centered products at the intersection of design & code.</p>
-                <p class="hero-description">
+                <!-- <p class="hero-description">
                     I blend research, design, and engineering to shape the what and deliver the how.
-                </p>
+                </p> -->
                 <div class="hero-buttons">
                     <a href="#projects" class="btn btn-primary">View My Work</a>
-                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                    <!-- <a href="#contact" class="btn btn-secondary">Get In Touch</a> -->
                     <a href="resume.pdf" class="btn btn-resume" download>
                         <i class="fas fa-download"></i> Download Resume
+                    </a>
+                </div>
+                
+                <div class="hero-social">
+                    <a href="mailto:mollyri@umich.edu" class="social-link" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/molly-rich-8ab403294/" class="social-link" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/MollyRich1" class="social-link" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
                     </a>
                 </div>
             </div>
@@ -84,21 +96,21 @@
 
                         <!-- One tidy grid of “chips” with icons -->
                         <div class="chip-grid">
+                            <span class="chip chip--primary"><i class="fa-brands fa-python" aria-hidden="true"></i>Python</span>
+                            <span class="chip chip--primary"><i class="fa-solid fa-code" aria-hidden="true"></i>C++</span>
                             <span class="chip chip--primary"><i class="fa-brands fa-react" aria-hidden="true"></i>React</span>
-                            <span class="chip chip--primary"><i class="fa-brands fa-html5" aria-hidden="true"></i>HTML</span>
-                            <span class="chip chip--primary"><i class="fa-brands fa-css3-alt" aria-hidden="true"></i>CSS</span>
+                            <!-- <span class="chip chip--primary"><i class="fa-brands fa-html5" aria-hidden="true"></i>HTML</span>
+                            <span class="chip chip--primary"><i class="fa-brands fa-css3-alt" aria-hidden="true"></i>CSS</span> -->
+                            <span class="chip chip--primary"><i class="fa-brands fa-bootstrap" aria-hidden="true"></i>Bootstrap</span>
                             <span class="chip chip--primary"><i class="fa-brands fa-figma" aria-hidden="true"></i>Figma</span>
 
-                            <span class="chip"><i class="fa-brands fa-js" aria-hidden="true"></i>JavaScript</span>
-                            <span class="chip"><i class="fa-brands fa-vuejs" aria-hidden="true"></i>Vue</span>
-                            <span class="chip"><i class="fa-brands fa-python" aria-hidden="true"></i>Python</span>
-                            <span class="chip"><i class="fa-brands fa-java" aria-hidden="true"></i>Java</span>
-                            <span class="chip"><i class="fa-solid fa-code" aria-hidden="true"></i>C++</span>
-
-                            <span class="chip"><i class="fa-brands fa-git-alt" aria-hidden="true"></i>Git</span>
-                            <span class="chip"><i class="fa-brands fa-github" aria-hidden="true"></i>GitHub</span>
-                            <span class="chip"><i class="fa-brands fa-aws" aria-hidden="true"></i>AWS</span>
-                            <span class="chip"><i class="fa-solid fa-database" aria-hidden="true"></i>SQL</span>
+                            <span class="chip chip--primary"><i class="fa-brands fa-js" aria-hidden="true"></i>JavaScript</span>
+                            <span class="chip chip--primary"><i class="fa-brands fa-vuejs" aria-hidden="true"></i>Vue</span>
+                            <span class="chip chip--primary"><i class="fa-brands fa-java" aria-hidden="true"></i>Java</span>
+                            <span class="chip chip--primary"><i class="fa-brands fa-git-alt" aria-hidden="true"></i>Git</span>
+                            <!-- <span class="chip chip--primary"><i class="fa-brands fa-github" aria-hidden="true"></i>GitHub</span> -->
+                            <span class="chip chip--primary"><i class="fa-brands fa-aws" aria-hidden="true"></i>AWS</span>
+                            <span class="chip chip--primary"><i class="fa-solid fa-database" aria-hidden="true"></i>SQL</span>
                         </div>
                         
                         <div class="resume-download">
@@ -124,11 +136,12 @@
                     </div>
                     <div class="project-content">
                         <h3>Quack!</h3>
-                        <p>A hackathon project built at MHacks that showcases my passion for creating innovative solutions.</p>
+                        <p>An MHacks hackathon project that helps users solve coding problems through playful, intuitive explanations utalizing AI as a teaching assistant.</p>
                         <div class="project-tech">
-                            <span class="tech-tag">JavaScript</span>
                             <span class="tech-tag">React</span>
+                            <span class="tech-tag">Python</span>
                             <span class="tech-tag">Hackathon</span>
+                            <span class="tech-tag">AI</span>
                         </div>
                         <div class="project-links">
                             <!-- <a href="#" class="project-link">
@@ -150,11 +163,11 @@
                     </div>
                     <div class="project-content">
                         <h3>Epsilon Eta Website</h3>
-                        <p>Built a professional website for Epsilon Eta, showcasing my web development and design skills.</p>
+                        <p>Designed and developed a responsive website for Epsilon Eta, highlighting recruitment, leadership, and chapter initiatives.</p>
                         <div class="project-tech">
                             <span class="tech-tag">HTML/CSS</span>
                             <span class="tech-tag">JavaScript</span>
-                            <span class="tech-tag">Web Design</span>
+                            <span class="tech-tag">Figma</span>
                         </div>
                         <div class="project-links">
                             <a href="https://www.epsilonetaumich.com/" target="_blank" rel="noopener noreferrer" class="project-link">
@@ -169,23 +182,21 @@
 
                 <div class="project-card">
                     <div class="project-image">
-                        <div class="project-placeholder">
-                            <i class="fas fa-globe"></i>
-                        </div>
+                        <img src="./images/tekRushImg.png" alt="Tau Epsilon Kappa project screenshot" class="project-img">
                     </div>
                     <div class="project-content">
-                        <h3>Personal Website</h3>
-                        <p>A clean, responsive portfolio website built from scratch to showcase my projects and skills.</p>
+                        <h3>Tau Epsilon Kappa Website</h3>
+                        <p>As Web Development Chair, refreshed Tau Epsilon Kappa's site with a retro-futurism inspired rush page while improving site reliability through bug fixes and ongoing maintenance.</p>
                         <div class="project-tech">
                             <span class="tech-tag">HTML/CSS</span>
                             <span class="tech-tag">JavaScript</span>
                             <span class="tech-tag">Responsive Design</span>
                         </div>
                         <div class="project-links">
-                            <a href="#" target="_blank" rel="noopener noreferrer" class="project-link">
-                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            <a href="https://tauepsilonkappa.com/" target="_blank" rel="noopener noreferrer" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> Live Site
                             </a>
-                            <a href="#" target="_blank" rel="noopener noreferrer" class="project-link">
+                            <a href="https://github.com/tauepsilonkappa/tauepsilonkappa.github.io" target="_blank" rel="noopener noreferrer" class="project-link">
                                 <i class="fab fa-github"></i> Code
                             </a>
                         </div>
@@ -212,13 +223,12 @@
                 <h3 class="involvement-title">Tau Epsilon Kappa (TEK)</h3>
                 <p class="involvement-sub">Professional Technology Fraternity</p>
                 <div class="involvement-tags">
-                <span class="role-tag">VP Internal Affairs</span>
-                <span class="role-tag">Social Chair (past)</span>
+                <span class="role-tag">Web Developemt Chair(2025)</span>
+                <span class="role-tag">Social Chair (2024-2025)</span>
                 </div>
-                <p class="involvement-desc">
-                Organized chapter operations and events, strengthening collaboration and culture.
+                <p class="involvement-desc">Led website updates, including a retro-futurism themed rush page, and organized professional and social events to strengthen chapter culture.
                 </p>
-                <p class="involvement-metric">Events organized: 12+ • Members engaged: 50+</p>
+                <p class="involvement-metric">Events organized: 12+ • Members engaged: 100+</p>
             </div>
             </article>
     
@@ -232,7 +242,7 @@
                 <h3 class="involvement-title">The Michigan Daily</h3>
                 <p class="involvement-sub">Web &amp; Data Team</p>
                 <div class="involvement-tags">
-                <span class="role-tag">Data + Web</span>
+                <span class="role-tag">Developer & Data Contributor</span>
                 </div>
                 <p class="involvement-desc">
                 Contributed to interactive, data-driven stories and internal newsroom tools.
@@ -249,17 +259,16 @@
                 </div>
                 <div class="involvement-content">
                 <h3 class="involvement-title">Kappa Delta Sorority</h3>
-                <p class="involvement-sub">Panhellenic Sorority – University of Michigan</p>
+                <p class="involvement-sub">Panhellenic Sorority - University of Michigan</p>
                 <div class="involvement-tags">
                     <span class="role-tag">Member</span>
                     <!-- Add a position tag if you hold one -->
                 </div>
                 <p class="involvement-desc">
-                    Support philanthropic initiatives including Prevent Child Abuse America and Girl Scouts of the USA 
-                    through fundraising events and campus outreach.
+                    Support national philanthropies through fundraising, outreach, and service efforts, including Prevent Child Abuse America and Girl Scouts of the USA. 
                 </p>
                 <p class="involvement-metric">
-                    Philanthropy events: 5+ annually • Funds raised: $10,000+ • Service hours: 20+
+                    Philanthropy events: 5+ annually • Funds raised: $10,000+ • Service hours: 10+
                 </p>
                 </div>
             </article>
@@ -314,7 +323,7 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2024 Molly Rich. All rights reserved.</p>
+            <p>&copy; 2025 Molly Rich. All rights reserved.</p>
         </div>
     </footer>
 
