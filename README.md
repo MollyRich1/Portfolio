@@ -1,141 +1,103 @@
-# Portfolio Website
+# Molly Rich - Portfolio Website
 
-A modern, responsive portfolio website built with HTML, CSS, and JavaScript. This template provides a clean and professional design that's perfect for showcasing your work and skills.
+**Computer Science Student | University of Michigan | Full-Stack Developer**
 
-## Features
+A modern, responsive portfolio website showcasing my technical skills, projects, and campus leadership experience. Built from scratch with HTML, CSS, and JavaScript to demonstrate my web development capabilities and professional presentation skills.
 
-- **Responsive Design**: Works perfectly on desktop, tablet, and mobile devices
-- **Modern UI**: Clean, professional design with smooth animations
-- **Interactive Navigation**: Smooth scrolling and active section highlighting
-- **Contact Form**: Functional contact form with validation
-- **Project Showcase**: Grid layout for displaying your projects
-- **Skills Section**: Highlight your technical skills
-- **Mobile Menu**: Hamburger menu for mobile devices
+## 🚀 Live Demo
+[View Portfolio](https://mollyrich.github.io/portfolio-website) | [Download Resume](resume.pdf)
 
-## Getting Started
+## 👩‍💻 About Me
 
-### Prerequisites
+I'm a junior at the University of Michigan studying Computer Science, passionate about blending creativity and technology to bring ideas to life. Originally from Scottsdale, Arizona, I chose UMich to grow beyond my comfort zone and join an environment that challenges me to become my best self.
 
-- A modern web browser
-- A text editor (VS Code, Sublime Text, etc.)
-- Basic knowledge of HTML, CSS, and JavaScript
+**Key Strengths:**
+- **Technical Versatility**: Full-stack development with modern frameworks
+- **Leadership Experience**: Social Chair at Tau Epsilon Kappa professional fraternity
+- **Collaborative Mindset**: Active contributor to campus organizations and hackathons
+- **Creative Problem-Solving**: Experience in UX design and data-driven storytelling
 
-### Installation
+## 🛠️ Technical Skills
 
-1. **Clone or download** this repository to your local machine
-2. **Open the project folder** in your preferred text editor
-3. **Customize the content** to match your personal information
+**Programming Languages:** C++, Python, Java, JavaScript  
+**Web Technologies:** React, Vue.js, HTML/CSS, Bootstrap  
+**Tools & Platforms:** Git, GitHub, AWS, SQL, Figma, Spline  
+**Coursework:** Data Structures & Algorithms, Web Systems, UI Development, Cybersecurity
 
-### Customization
+## 🏆 Featured Projects
 
-#### 1. Personal Information
-Edit the following in `index.html`:
-- Replace "Your Name" with your actual name
-- Update the hero subtitle and description
-- Add your real email address in the contact section
-- Update social media links (LinkedIn, GitHub)
+### Quack! - MHacks Hackathon Project
+- **Technologies:** JavaScript, React
+- **Description:** Innovative hackathon project showcasing creative problem-solving and rapid prototyping skills
+- **Impact:** Demonstrates ability to work under time pressure and deliver functional solutions
 
-#### 2. Projects Section
-- Replace the placeholder projects with your actual projects
-- Update project titles, descriptions, and technologies used
-- Add real links to live demos and GitHub repositories
-- Replace placeholder icons with actual project screenshots
+### Epsilon Eta Website
+- **Technologies:** HTML/CSS, JavaScript, Web Design
+- **Description:** Professional website development for campus organization
+- **Impact:** Real-world client work demonstrating communication and project management skills
 
-#### 3. Skills Section
-- Update the skills list to match your expertise
-- Add or remove skill tags as needed
+### Personal Portfolio Website
+- **Technologies:** HTML/CSS, JavaScript, Responsive Design
+- **Description:** Clean, modern portfolio built from scratch with custom animations and mobile-first design
+- **Impact:** Showcases attention to detail and user experience design principles
 
-#### 4. Styling
-- Modify colors in `styles.css` to match your brand
-- Update fonts by changing the Google Fonts import
-- Adjust spacing, sizes, and layout as needed
+## 🎯 Campus Leadership & Involvement
 
-#### 5. Contact Form
-- The contact form is currently set up for demonstration
-- To make it functional, you'll need to:
-  - Set up a backend service (Node.js, PHP, etc.)
-  - Use a service like Formspree, Netlify Forms, or EmailJS
-  - Update the form action and method in the HTML
+**Tau Epsilon Kappa (Professional Fraternity)**
+- **Role:** Social Chair (Sophomore Year)
+- **Responsibilities:** Organized social events, strengthened brotherhood, developed leadership skills
+- **Impact:** Enhanced communication and event planning abilities
 
-## File Structure
+**The Michigan Daily (Web Team)**
+- **Role:** Web Team Member
+- **Responsibilities:** Data analysis, creating compelling data-driven stories
+- **Impact:** Applied technical skills to journalism and storytelling
 
-```
-Portfolio-Website/
-├── index.html          # Main HTML file
-├── styles.css          # CSS styles and responsive design
-├── script.js           # JavaScript functionality
-└── README.md           # This file
-```
+**Kappa Delta Sorority**
+- **Role:** Active Member
+- **Responsibilities:** Philanthropy work with Prevent Child Abuse America, Girl Scouts programs, fundraising events
+- **Impact:** Developed community engagement and organizational skills
 
-## Browser Support
+## 🎨 Design Philosophy
 
-This portfolio website supports all modern browsers including:
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
+This portfolio demonstrates my approach to clean, user-centered design:
+- **Mobile-First**: Responsive design that works seamlessly across all devices
+- **Performance-Optimized**: Fast loading times and smooth animations
+- **Accessibility-Focused**: Semantic HTML and proper contrast ratios
+- **Professional Aesthetic**: Clean typography and thoughtful color choices
 
-## Deployment
+## 🚀 Technical Implementation
 
-### Option 1: GitHub Pages
-1. Push your code to a GitHub repository
-2. Go to repository Settings > Pages
-3. Select source branch (usually `main`)
-4. Your site will be available at `https://yourusername.github.io/repository-name`
+**Frontend Technologies:**
+- Semantic HTML5 for accessibility and SEO
+- CSS3 with Flexbox and Grid for responsive layouts
+- Vanilla JavaScript for interactive features
+- Font Awesome icons and Google Fonts for typography
 
-### Option 2: Netlify
-1. Drag and drop your project folder to [Netlify](https://netlify.com)
-2. Your site will be deployed instantly with a custom URL
+**Key Features:**
+- Smooth scrolling navigation with active section highlighting
+- Contact form with client-side validation
+- Intersection Observer API for scroll animations
+- Mobile-responsive hamburger menu
+- Download resume functionality
 
-### Option 3: Vercel
-1. Connect your GitHub repository to [Vercel](https://vercel.com)
-2. Deploy with zero configuration
+## 📈 Career Goals
 
-### Option 4: Traditional Web Hosting
-1. Upload all files to your web hosting provider
-2. Ensure `index.html` is in the root directory
+I'm seeking opportunities in:
+- **Software Engineering**: Full-stack development roles
+- **Product Management**: Technical product strategy and development
+- **Tech Consulting**: Business and technology integration
+- **UX/UI Design**: User-centered design and development
 
-## Customization Tips
+## 📞 Contact
 
-### Adding Your Photo
-1. Replace the profile placeholder in the hero section
-2. Add your photo to the project folder
-3. Update the CSS to use your image instead of the placeholder
-
-### Adding More Sections
-1. Create new sections in the HTML
-2. Add corresponding navigation links
-3. Style the new sections in CSS
-4. Update JavaScript if needed for interactivity
-
-### SEO Optimization
-1. Add meta descriptions and keywords
-2. Include Open Graph tags for social media sharing
-3. Add structured data markup
-4. Optimize images and use alt tags
-
-## Performance Tips
-
-- Optimize images before adding them
-- Minify CSS and JavaScript for production
-- Use a CDN for external resources
-- Enable gzip compression on your server
-
-## Contributing
-
-Feel free to fork this project and customize it for your own use. If you make improvements that could benefit others, consider submitting a pull request.
-
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-## Support
-
-If you have any questions or need help customizing your portfolio, feel free to:
-- Open an issue on GitHub
-- Check the documentation
-- Reach out to the community
+**Email:** mollyri@umich.edu  
+**LinkedIn:** [linkedin.com/in/molly-rich-8ab403294](https://www.linkedin.com/in/molly-rich-8ab403294/)  
+**GitHub:** [github.com/MollyRich1](https://github.com/MollyRich1)  
+**Location:** Ann Arbor, MI | Scottsdale, AZ
 
 ---
 
-**Happy coding!** 🚀
+*"I blend research, design, and engineering to shape the what and deliver the how."*
+
+**Ready to connect and discuss opportunities where I can contribute, learn, and make an impact!** 🚀
