@@ -102,10 +102,9 @@ body {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    padding: 100px 0 50px;
+    padding: 120px 20px 50px;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
-    padding: 0 100px;
 }
 
 .hero-container {
@@ -576,10 +575,15 @@ section {
         left: 0;
     }
 
+    .hero {
+        padding: 140px 20px 50px;
+    }
+
     .hero-container {
         grid-template-columns: 1fr;
         text-align: center;
         gap: 2rem;
+        padding: 0 20px;
     }
 
     .hero-title {
@@ -589,6 +593,10 @@ section {
     .hero-buttons {
         justify-content: center;
         flex-wrap: wrap;
+    }
+
+    .hero-social {
+        justify-content: center;
     }
 
     .contact-content {
@@ -615,6 +623,14 @@ section {
 }
 
 @media (max-width: 480px) {
+    .hero {
+        padding: 160px 15px 50px;
+    }
+
+    .hero-container {
+        padding: 0 15px;
+    }
+
     .hero-title {
         font-size: 2rem;
     }
