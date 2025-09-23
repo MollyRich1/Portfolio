@@ -5,7 +5,7 @@
 A modern, responsive portfolio website showcasing my technical skills, projects, and campus leadership experience. Built from scratch with HTML, CSS, and JavaScript to demonstrate my web development capabilities and professional presentation skills.
 
 ## 🚀 Live Demo
-[View Portfolio](https://mollyrich.github.io/portfolio-website) | [Download Resume](resume.pdf)
+[View Portfolio](https://mollyrich1.github.io/Portfolio/) | [Download Resume](Molly-Rich-Resume.pdf)
 
 ## 👩‍💻 About Me
 
