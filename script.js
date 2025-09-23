@@ -60,8 +60,9 @@ window.addEventListener('scroll', () => {
     });
 });
 
-// Contact form handling
-const contactForm = document.querySelector('.contact-form');
+// Contact form handling with EmailJS
+const contactForm = document.getElementById('contact-form');
+
 if (contactForm) {
     contactForm.addEventListener('submit', function(e) {
         e.preventDefault();
@@ -72,32 +73,59 @@ if (contactForm) {
         const email = formData.get('email');
         const message = formData.get('message');
         
+        const submitBtn = this.querySelector('button[type="submit"]');
+        const originalText = submitBtn.textContent;
+        
         // Simple validation
         if (!name || !email || !message) {
-            alert('Please fill in all fields.');
+            submitBtn.textContent = 'Please fill all fields';
+            submitBtn.style.backgroundColor = '#ef4444';
+            setTimeout(() => {
+                submitBtn.textContent = originalText;
+                submitBtn.style.backgroundColor = '';
+            }, 3000);
             return;
         }
         
         // Email validation
         const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
         if (!emailRegex.test(email)) {
-            alert('Please enter a valid email address.');
+            submitBtn.textContent = 'Invalid email address';
+            submitBtn.style.backgroundColor = '#ef4444';
+            setTimeout(() => {
+                submitBtn.textContent = originalText;
+                submitBtn.style.backgroundColor = '';
+            }, 3000);
             return;
         }
         
-        // Simulate form submission
-        const submitBtn = this.querySelector('button[type="submit"]');
-        const originalText = submitBtn.textContent;
+        // Show sending status
         submitBtn.textContent = 'Sending...';
         submitBtn.disabled = true;
         
-        // Simulate API call
-        setTimeout(() => {
-            alert('Thank you for your message! I\'ll get back to you soon.');
-            this.reset();
-            submitBtn.textContent = originalText;
-            submitBtn.disabled = false;
-        }, 2000);
+        // Send email using EmailJS
+        emailjs.sendForm('service_uk54upr', 'template_sw024nl', this)
+            .then(() => {
+                submitBtn.textContent = 'Message Sent! ✓';
+                submitBtn.style.backgroundColor = '#332e59';
+                submitBtn.style.color = 'white';
+                this.reset();
+                setTimeout(() => {
+                    submitBtn.textContent = originalText;
+                    submitBtn.style.backgroundColor = '';
+                    submitBtn.style.color = '';
+                    submitBtn.disabled = false;
+                }, 3000);
+            }, (error) => {
+                console.log('EmailJS error:', error);
+                submitBtn.textContent = 'Send Failed - Try Again';
+                submitBtn.style.backgroundColor = '#ef4444';
+                setTimeout(() => {
+                    submitBtn.textContent = originalText;
+                    submitBtn.style.backgroundColor = '';
+                    submitBtn.disabled = false;
+                }, 3000);
+            });
     });
 }
 
