@@ -136,6 +136,15 @@ body {
     color: #e5e7eb;
 }
 
+.hero-seeking {
+    font-size: 0.95rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+    color: rgba(255, 255, 255, 0.75);
+    font-style: italic;
+    letter-spacing: 0.3px;
+}
+
 .hero-description {
     font-size: 1.1rem;
     margin-bottom: 2rem;
@@ -636,6 +645,10 @@ section {
         font-size: 2rem;
     }
 
+    .hero-seeking {
+        font-size: 0.85rem;
+    }
+
     .section-title {
         font-size: 2rem;
     }
@@ -807,6 +820,58 @@ section {
       padding: 9px 12px;
       font-size: 0.9rem;
       border-radius: 10px;
+    }
+  }
+
+  /* Skills Section */
+  .skills {
+    margin-top: 2.5rem;
+  }
+
+  .skills h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #1f2937;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
+  /* Skills Grid - 3 Column Layout */
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  /* Skill Category Sections */
+  .skill-category-section {
+    margin-bottom: 0;
+  }
+
+  .skill-category-title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #374151;
+    margin-bottom: 0.75rem;
+    text-align: center;
+    letter-spacing: 0.3px;
+  }
+
+  .skill-category-section .chip-grid {
+    margin-top: 0.5rem;
+    justify-content: center;
+  }
+
+  /* Responsive: Stack on smaller screens */
+  @media (max-width: 768px) {
+    .skills-grid {
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+    }
+
+    .skill-category-section {
+      margin-bottom: 0;
     }
   }
   
