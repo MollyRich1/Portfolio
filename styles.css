@@ -103,8 +103,8 @@ body {
     display: flex;
     align-items: center;
     padding: 120px 20px 50px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: white;
+    background: #00274C;
+    color: #ffffff;
 }
 
 .hero-container {
@@ -126,14 +126,15 @@ body {
 
 .highlight {
     color: #ffffff;
-    text-shadow: 0 0 5px #9e90d0;
+    border-bottom: 4px solid #FFCB05;
+    padding-bottom: 0.05em;
 }
 
 .hero-subtitle {
     font-size: 1.5rem;
     font-weight: 500;
     margin-bottom: 1rem;
-    color: #e5e7eb;
+    color: #c7d3e0;
 }
 
 .hero-seeking {
@@ -168,13 +169,13 @@ body {
 }
 
 .btn-primary {
-    background-color: #ffffff;
-    color: #667eea;
+    background-color: #FFCB05;
+    color: #00274C;
 }
 
 .btn-primary:hover {
-    background-color: #332e59;
-    color:white;
+    background-color: #e6b704;
+    color: #00274C;
     transform: translateY(-2px);
 }
 
@@ -191,15 +192,14 @@ body {
 }
 
 .btn-resume {
-    background-color: rgba(255, 255, 255, 0.2);
-    color: white;
+    background-color: transparent;
+    color: #ffffff;
     border-color: rgba(255, 255, 255, 0.3);
-    backdrop-filter: blur(10px);
 }
 
 .btn-resume:hover {
-    background-color: rgba(255, 255, 255, 0.3);
-    border-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.6);
     transform: translateY(-2px);
 }
 
@@ -223,7 +223,7 @@ body {
     /* background-color: rgba(255, 255, 255, 0.1); */
     /* border: 2px solid rgba(255, 255, 255, 0.2); */
     /* border-radius: 50%; */
-    color: white;
+    color: #c7d3e0;
     text-decoration: none;
     font-size: 2rem;
     transition: all 0.3s ease;
@@ -243,9 +243,9 @@ body {
 }
 
 .btn-resume-about {
-    background-color: #667eea;
+    background-color: #00274C;
     color: white;
-    border: 2px solid #667eea;
+    border: 2px solid #00274C;
     padding: 12px 24px;
     border-radius: 8px;
     text-decoration: none;
@@ -255,8 +255,8 @@ body {
 }
 
 .btn-resume-about:hover {
-    background-color: #5a67d8;
-    border-color: #5a67d8;
+    background-color: #003a70;
+    border-color: #003a70;
     transform: translateY(-2px);
     color: white;
 }
@@ -281,7 +281,7 @@ body {
     justify-content: center;
     font-size: 4rem;
     color: rgba(255, 255, 255, 0.7);
-    border: 3px solid rgba(255, 255, 255, 0.2);
+    border: 3px solid rgba(255, 203, 5, 0.35);
     overflow: hidden;
 }
 
@@ -403,7 +403,7 @@ section {
 
 .project-image {
     height: 200px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: #e5e7eb;
     display: flex;
     align-items: center;
     justify-content: center;
