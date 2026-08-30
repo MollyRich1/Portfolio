@@ -1,103 +1,96 @@
-# Molly Rich - Portfolio Website
+# Molly Rich — Portfolio Website
 
-**Computer Science Student | University of Michigan | Full-Stack Developer**
+**Computer Science Student | University of Michigan**
 
-A modern, responsive portfolio website showcasing my technical skills, projects, and campus leadership experience. Built from scratch with HTML, CSS, and JavaScript to demonstrate my web development capabilities and professional presentation skills.
+> *"I blend research, design, and engineering to shape the what and deliver the how."*
 
-## 🚀 Live Demo
-[View Portfolio](https://mollyrich1.github.io/Portfolio/) | [Download Resume](Molly-Rich-Resume.pdf)
+A personal portfolio site built from scratch with vanilla HTML, CSS, and JavaScript — no framework, no build step. The design is deliberately editorial: warm paper tones, a serif/sans type pairing, and hairline rules instead of cards and shadows.
 
-## 👩‍💻 About Me
+## 🔗 Links
 
-I'm a junior at the University of Michigan studying Computer Science, passionate about blending creativity and technology to bring ideas to life. Originally from Scottsdale, Arizona, I chose UMich to grow beyond my comfort zone and join an environment that challenges me to become my best self.
+[**View the live site**](https://mollyrich1.github.io/Portfolio/) · [Download résumé](Molly_Rich_Resume.pdf)
 
-**Key Strengths:**
-- **Technical Versatility**: Full-stack development with modern frameworks
-- **Leadership Experience**: Social Chair at Tau Epsilon Kappa professional fraternity
-- **Collaborative Mindset**: Active contributor to campus organizations and hackathons
-- **Creative Problem-Solving**: Experience in UX design and data-driven storytelling
+## 👩‍💻 About
 
-## 🛠️ Technical Skills
+I'm a senior at the University of Michigan studying Computer Science, passionate about blending creativity and technology to bring ideas to life. Originally from Scottsdale, Arizona, I chose Michigan to grow beyond my comfort zone and join an environment that challenges me to become my best self.
 
-**Programming Languages:** C++, Python, Java, JavaScript  
-**Web Technologies:** React, Vue.js, HTML/CSS, Bootstrap  
-**Tools & Platforms:** Git, GitHub, AWS, SQL, Figma, Spline  
-**Coursework:** Data Structures & Algorithms, Web Systems, UI Development, Cybersecurity
+Outside of academics I stay inspired through fitness, running, and sewing — habits that sharpen my discipline and fuel my creativity.
+
+## 🛠️ Skills
+
+**Product & Design** — Figma, Linear, Jira
+**Data & Analytics** — SQL, Python, Excel
+**Engineering** — JavaScript, C/C++, React, Flask, Django, CSS, Bootstrap, Git
 
 ## 🏆 Featured Projects
 
-### Quack! - MHacks Hackathon Project
-- **Technologies:** JavaScript, React
-- **Description:** Innovative hackathon project showcasing creative problem-solving and rapid prototyping skills
-- **Impact:** Demonstrates ability to work under time pressure and deliver functional solutions
+### Quack!
+An MHacks hackathon project that helps users solve coding problems through playful, intuitive explanations, using AI as a teaching assistant.
+**React · Python · AI** — [Code](https://github.com/muhrauf12/Quack-)
 
-### Epsilon Eta Website
-- **Technologies:** HTML/CSS, JavaScript, Web Design
-- **Description:** Professional website development for campus organization
-- **Impact:** Real-world client work demonstrating communication and project management skills
+### Epsilon Eta
+Designed and developed a responsive website for Epsilon Eta, highlighting recruitment, leadership, and chapter initiatives.
+**HTML/CSS · JavaScript · Figma** — [Live site](https://www.epsilonetaumich.org/) · [Code](https://github.com/MollyRich1/Eta_Umich)
 
-### Personal Portfolio Website
-- **Technologies:** HTML/CSS, JavaScript, Responsive Design
-- **Description:** Clean, modern portfolio built from scratch with custom animations and mobile-first design
-- **Impact:** Showcases attention to detail and user experience design principles
+### Tau Epsilon Kappa
+As Web Development Chair, refreshed the chapter site with a retro-futurism inspired rush page while improving reliability through bug fixes and ongoing maintenance.
+**HTML/CSS · JavaScript · Responsive Design** — [Live site](https://tauepsilonkappa.com/) · [Code](https://github.com/tauepsilonkappa/tauepsilonkappa.github.io)
 
-## 🎯 Campus Leadership & Involvement
+## 🎯 Campus Involvement
 
-**Tau Epsilon Kappa (Professional Fraternity)**
-- **Role:** Social Chair (Sophomore Year)
-- **Responsibilities:** Organized social events, strengthened brotherhood, developed leadership skills
-- **Impact:** Enhanced communication and event planning abilities
+**Tau Epsilon Kappa** — Web Development Chair, VP Internal Affairs
+Led website updates and organized professional and social events to strengthen chapter culture.
 
-**The Michigan Daily (Web Team)**
-- **Role:** Web Team Member
-- **Responsibilities:** Data analysis, creating compelling data-driven stories
-- **Impact:** Applied technical skills to journalism and storytelling
+**The Michigan Daily** — Data Team Manager, Web & Data Team
+Drove the idea-to-publication process for data stories, blending analysis with storytelling impact.
 
-**Kappa Delta Sorority**
-- **Role:** Active Member
-- **Responsibilities:** Philanthropy work with Prevent Child Abuse America, Girl Scouts programs, fundraising events
-- **Impact:** Developed community engagement and organizational skills
+**Claude Builder Club** — Builder
+Build real applications alongside peers using Claude Code, from prototyping features to shipping projects.
 
-## 🎨 Design Philosophy
+## 🎨 Design Notes
 
-This portfolio demonstrates my approach to clean, user-centered design:
-- **Mobile-First**: Responsive design that works seamlessly across all devices
-- **Performance-Optimized**: Fast loading times and smooth animations
-- **Accessibility-Focused**: Semantic HTML and proper contrast ratios
-- **Professional Aesthetic**: Clean typography and thoughtful color choices
+The site went through a deliberate redesign away from template defaults:
 
-## 🚀 Technical Implementation
+- **One continuous surface.** A single warm `#faf8f5` paper background runs the full page, with hairline rules marking section boundaries instead of alternating background fills.
+- **Type as the accent.** Instrument Serif for display headings paired with Inter for body copy. There is no accent color — links are ink with underlines.
+- **No cards.** Projects and involvement entries sit directly on the page, separated by rules rather than floating in shadowed rounded rectangles.
+- **Design tokens.** The warm neutral ramp and both type families are defined once as CSS custom properties in `:root`, so the palette can be retuned in one place.
 
-**Frontend Technologies:**
-- Semantic HTML5 for accessibility and SEO
-- CSS3 with Flexbox and Grid for responsive layouts
-- Vanilla JavaScript for interactive features
-- Font Awesome icons and Google Fonts for typography
+## ⚙️ Technical Notes
 
-**Key Features:**
-- Smooth scrolling navigation with active section highlighting
-- Contact form with client-side validation
-- Intersection Observer API for scroll animations
-- Mobile-responsive hamburger menu
-- Download resume functionality
+**Stack:** Semantic HTML5, CSS3 (Grid and Flexbox), vanilla JavaScript. Icons from Font Awesome, type from Google Fonts.
 
-## 📈 Career Goals
+**Features:**
+- Fixed navigation with a mobile hamburger menu and smooth scrolling
+- Scroll-triggered fade-in animations via the Intersection Observer API
+- Contact form wired to EmailJS with client-side validation and inline status feedback
+- Responsive layouts at 768px and 480px breakpoints
+- Résumé download
 
-I'm seeking opportunities in:
-- **Software Engineering**: Full-stack development roles
-- **Product Management**: Technical product strategy and development
-- **Tech Consulting**: Business and technology integration
-- **UX/UI Design**: User-centered design and development
+**Running locally:** there's no build step, so any static server works:
+
+```bash
+python3 -m http.server 8000
+```
+
+Then open <http://localhost:8000>.
+
+**Deployment:** GitHub Pages serves `main` at the repository root. Pushing to `main` publishes automatically.
+
+## 🌿 Branches
+
+Alternate hero treatments explored during the redesign are preserved for reference:
+
+| Branch | Treatment |
+|---|---|
+| `main` | Editorial — warm paper, serif display, accentless |
+| `redesign/hero-dark` | Slate ink with a blue accent |
+| `redesign/hero-michigan` | Michigan navy with a maize accent |
+| `redesign/hero-radial` | Single-hue radial glow with a dot grid |
 
 ## 📞 Contact
 
-**Email:** mollyri@umich.edu  
-**LinkedIn:** [linkedin.com/in/molly-rich-8ab403294](https://www.linkedin.com/in/molly-rich-8ab403294/)  
-**GitHub:** [github.com/MollyRich1](https://github.com/MollyRich1)  
-**Location:** Ann Arbor, MI | Scottsdale, AZ
-
----
-
-*"I blend research, design, and engineering to shape the what and deliver the how."*
-
-**Ready to connect and discuss opportunities where I can contribute, learn, and make an impact!** 🚀
+**Email:** mollyri@umich.edu
+**LinkedIn:** [linkedin.com/in/molly-rich-8ab403294](https://www.linkedin.com/in/molly-rich-8ab403294/)
+**GitHub:** [github.com/MollyRich1](https://github.com/MollyRich1)
+**Location:** Ann Arbor, MI · Scottsdale, AZ
